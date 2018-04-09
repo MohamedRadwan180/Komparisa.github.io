@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Komparisa</title>
+		<meta name="description" content="Komparisa: is a web-based app designed to compare the stress concentration factor for different geometries" />
+		<meta name="keywords" content="Komparisa, Stress concentration Factor, K, Qatar University, Mechanical, Stress" />
+		<meta name="author" content="Mohamed Radwan" />
+		<!-- Header Icon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- Modernizr is used for flexbox fallback -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<!-- Compare basket -->
+		<div class="compare-basket">
+			<button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+		</div>
+		<!-- Main view -->
+		<div class="view">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+				<span>Komparisa <span class="bp-icon bp-icon-about" data-content="Komparisa is Web-Based App designed to compare the stress concentration factor for different geometries based on real simulation results"></span></span>
+				<h1>Stress concentration Factor Comparison App</h1>
+			</header>
+			<!-- Product grid -->
+			<section class="grid">
+				<!-- Products -->
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/Part4.1.png" alt="Product 1" />
+						<h3 class="product__title">Graded Plates</h3>
+						<span class="product__year extra highlight">r/d = 0.15</span>
+						<span class="product__year extra highlight">D/d = 1.50</span>
+						<span class="product__region extra highlight">Force = 200N</span>
+						<span class="product__region extra highlight">Theoritical K = 1.89</span>
+						<span class="product__varietal extra highlight">Theoritical Nomral Stress = 0.2667 MPA</span>
+						<span class="product__alcohol extra highlight">Theoritical Maximum Stress = 0.504 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Nomral Stress = 0.2667 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Maximum Stress = 0.5033 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental K = 1.8850 MPA</span>
+						<span class="product__price highlight">Error in K = 0.2635%</span>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/Part 3.png" alt="Product 1" />
+						<h3 class="product__title">Graded Shafts</h3>
+						<span class="product__year extra highlight">r/d = 0.15</span>
+						<span class="product__year extra highlight">D/d = 1.5</span>
+						<span class="product__region extra highlight">Force = 200N</span>
+						<span class="product__region extra highlight">Theoritical K = 1.68</span>
+						<span class="product__varietal extra highlight">Theoritical Nomral Stress = 0.101859 MPA</span>
+						<span class="product__alcohol extra highlight">Theoritical Maximum Stress =  0.17112MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Nomral Stress =  0.1019MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Maximum Stress =  0.1728MPA</span>
+						<span class="product__alcohol extra highlight">Experimental K =  1.728 MPA</span>
+						<span class="product__price highlight">Error in K = 2.867</span>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/Part 1.png" alt="Product 1" />
+						<h3 class="product__title">Perforated Plate</h3>
+						<span class="product__year extra highlight">d/w = 0.5</span>
+						<span class="product__region extra highlight">Force = 500N</span>
+						<span class="product__region extra highlight">Theoritical K = 2.18</span>
+						<span class="product__varietal extra highlight">Theoritical Nomral Stress = 20 MPA</span>
+						<span class="product__alcohol extra highlight">Theoritical Maximum Stress =  43.6 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Nomral Stress = 20.01 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Maximum Stress = 43.58 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental K = 2.177911 MPA</span>
+						<span class="product__price highlight">Error in K = 0.09582</span>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+<!-- 
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/Part 2.png" alt="Product 1" />
+						<h3 class="product__title">Grooved Shaft</h3>
+						<span class="product__year extra highlight">r/d = </span>
+						<span class="product__year extra highlight">D/d = </span>
+						<span class="product__region extra highlight">Force = 200N</span>
+						<span class="product__region extra highlight">Theoritical K = </span>
+						<span class="product__varietal extra highlight">Theoritical Nomral Stress =  MPA</span>
+						<span class="product__alcohol extra highlight">Theoritical Maximum Stress =  MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Nomral Stress =  MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Maximum Stress =  MPA</span>
+						<span class="product__alcohol extra highlight">Experimental K =  MPA</span>
+						<span class="product__price highlight">Error in K = </span>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+-->
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/Part 5.png" alt="Product 1" />
+						<h3 class="product__title">Double Perforated Plate</h3>
+						<span class="product__year extra highlight">r/d = 0.125</span>
+						<span class="product__year extra highlight">W/d = 1.5</span>
+						<span class="product__region extra highlight">Force = 10 KN</span>
+						<span class="product__region extra highlight">Theoritical K = 2.3</span>
+						<span class="product__varietal extra highlight">Theoritical Nomral Stress = 25 MPA</span>
+						<span class="product__alcohol extra highlight">Theoritical Maximum Stress = 57 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Nomral Stress = 20.01 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental Maximum Stress = 53.9 MPA</span>
+						<span class="product__alcohol extra highlight">Experimental K = 2.69365 MPA</span>
+						<span class="product__price highlight">Error in K = 17.115%</span>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+			</section>
+			<center>
+			<footer>
+				<small>&copy; Copyright 2018, Mohamed Medhat Radwan</small>
+			</footer>
+		</center>
+		</div><!-- /view -->
+		<!-- product compare wrapper -->
+		<section class="compare">
+			<button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+		</section>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
